@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fútbol Total | Arriendo de Canchas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100">
+
+  <!-- NAVBAR -->
+  <header class="bg-slate-950/80 backdrop-blur sticky top-0 z-40 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-full bg-emerald-500 flex items-center justify-center font-black text-slate-900 text-lg">
+          FT
+        </div>
+        <div>
+          <p class="font-bold leading-tight">Fútbol Total</p>
+          <p class="text-xs text-slate-400 -mt-1">Arriendo de canchas</p>
+        </div>
+      </div>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#inicio" class="hover:text-emerald-400">Inicio</a>
+        <a href="#canchas" class="hover:text-emerald-400">Canchas</a>
+        <a href="#planes" class="hover:text-emerald-400">Planes</a>
+        <a href="#nosotros" class="hover:text-emerald-400">Quiénes somos</a>
+        <a href="#reserva" class="hover:text-emerald-400 font-semibold text-emerald-400">Reserva</a>
+        <a href="#contacto" class="hover:text-emerald-400">Contacto</a>
+      </nav>
+      <a href="#reserva"
+         class="hidden md:inline-flex px-4 py-2 rounded-full bg-emerald-500 text-slate-950 text-sm font-semibold hover:bg-emerald-400">
+        Reservar ahora
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="inicio"
+             class="relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-emerald-900 via-slate-900 to-slate-900 opacity-90"></div>
+      <div class="relative max-w-6xl mx-auto px-4 py-14 md:py-20 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <p class="text-emerald-400 text-xs font-semibold tracking-[0.2em] uppercase mb-3">
+            Reserva online · Confirmación por correo
+          </p>
+          <h1 class="text-3xl md:text-5xl font-black leading-tight mb-4">
+            Juega tu mejor partido en <span class="text-emerald-400">Fútbol Total</span>
+          </h1>
+          <p class="text-slate-300 text-sm md:text-base mb-6">
+            Arrienda canchas sintéticas de alto nivel, con iluminación y camarines.
+            Elige tu horario, completa tus datos y recibe la confirmación de tu reserva por correo electrónico.
+          </p>
+          <div class="flex flex-wrap gap-3 mb-6">
+            <div class="flex items-center gap-2 text-xs md:text-sm">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span>3 canchas sintéticas Fútbol 7</span>
+            </div>
+            <div class="flex items-center gap-2 text-xs md:text-sm">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span>Estacionamiento y camarines</span>
+            </div>
+            <div class="flex items-center gap-2 text-xs md:text-sm">
+              <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+              <span>Iluminación nocturna</span>
+            </div>
+          </div>
+          <div class="flex flex-wrap gap-3">
+            <a href="#reserva"
+               class="px-5 py-3 rounded-xl bg-emerald-500 text-slate-950 font-semibold text-sm hover:bg-emerald-400">
+              Reservar una cancha
+            </a>
+            <a href="#canchas"
+               class="px-5 py-3 rounded-xl border border-slate-600 text-sm hover:border-emerald-400">
+              Ver canchas
+            </a>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="aspect-[4/3] rounded-3xl bg-[radial-gradient(circle_at_top,_#22c55e,_#020617)] flex items-center justify-center border border-emerald-500/40 shadow-[0_0_80px_rgba(16,185,129,.6)]">
+            <div class="w-40 h-40 md:w-52 md:h-52 rounded-full border border-emerald-300/60 flex items-center justify-center">
+              <div class="w-28 h-28 md:w-36 md:h-36 rounded-full border border-emerald-300/80 flex items-center justify-center">
+                <div class="w-16 h-16 md:w-20 md:h-20 rounded-full bg-slate-900 flex items-center justify-center">
+                  <span class="text-3xl md:text-4xl">⚽</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="absolute -bottom-4 -left-2 bg-slate-900/90 border border-slate-700 rounded-xl px-4 py-3 text-xs shadow-lg">
+            <p class="font-semibold text-emerald-400">+120 equipos</p>
+            <p class="text-slate-300">juegan con nosotros cada mes</p>
+          </div>
+          <div class="absolute -top-3 -right-3 bg-slate-900/90 border border-slate-700 rounded-xl px-4 py-3 text-xs shadow-lg">
+            <p class="font-semibold text-emerald-400">Reserva en 1 minuto</p>
+            <p class="text-slate-300">y recibe confirmación por correo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CANCHAS -->
+    <section id="canchas" class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+      <div class="flex items-end justify-between gap-4 mb-8">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold mb-2">Nuestras canchas</h2>
+          <p class="text-slate-300 text-sm md:text-base">
+            Complejo deportivo con canchas sintéticas de estándar profesional para que solo te preocupes de jugar.
+          </p>
+        </div>
+        <p class="text-xs md:text-sm text-slate-400 hidden md:block">
+          Elige la cancha al momento de reservar tu horario.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Cancha 1 -->
+        <article class="bg-slate-900/70 border border-slate-700 rounded-2xl overflow-hidden flex flex-col">
+          <div class="h-32 bg-gradient-to-br from-emerald-500 via-emerald-700 to-slate-900"></div>
+          <div class="p-4 flex-1 flex flex-col">
+            <h3 class="font-semibold mb-1">Cancha 1 · Fútbol 7</h3>
+            <p class="text-xs text-emerald-300 mb-2">Sintética · Techada parcial</p>
+            <p class="text-xs text-slate-300 mb-3">
+              Ideal para partidos nocturnos. Iluminación LED, malla perimetral alta y marcadores de área visibles.
+            </p>
+            <ul class="text-xs text-slate-300 space-y-1 mb-3">
+              <li>• Medidas aprox. 40 x 20 m</li>
+              <li>• Camarines a pocos metros</li>
+              <li>• Bebederos cercanos</li>
+            </ul>
+            <p class="mt-auto text-xs text-slate-400">Desde <span class="text-emerald-400 font-semibold">$20.000 / hora</span></p>
+          </div>
+        </article>
+
+        <!-- Cancha 2 -->
+        <article class="bg-slate-900/70 border border-slate-700 rounded-2xl overflow-hidden flex flex-col">
+          <div class="h-32 bg-gradient-to-br from-emerald-400 via-slate-800 to-slate-950"></div>
+          <div class="p-4 flex-1 flex flex-col">
+            <h3 class="font-semibold mb-1">Cancha 2 · Fútbol 7</h3>
+            <p class="text-xs text-emerald-300 mb-2">Sintética · Descubierta</p>
+            <p class="text-xs text-slate-300 mb-3">
+              Perfecta para partidos en la tarde. Pasto sintético de última generación y arcos profesionales.
+            </p>
+            <ul class="text-xs text-slate-300 space-y-1 mb-3">
+              <li>• Iluminación perimetral</li>
+              <li>• Sector para acompañantes</li>
+              <li>• Estacionamiento cercano</li>
+            </ul>
+            <p class="mt-auto text-xs text-slate-400">Desde <span class="text-emerald-400 font-semibold">$20.000 / hora</span></p>
+          </div>
+        </article>
+
+        <!-- Cancha 3 -->
+        <article class="bg-slate-900/70 border border-slate-700 rounded-2xl overflow-hidden flex flex-col">
+          <div class="h-32 bg-gradient-to-br from-emerald-300 via-slate-800 to-slate-900"></div>
+          <div class="p-4 flex-1 flex flex-col">
+            <h3 class="font-semibold mb-1">Cancha 3 · Multiuso</h3>
+            <p class="text-xs text-emerald-300 mb-2">Fútbol 7 · Entrenamientos</p>
+            <p class="text-xs text-slate-300 mb-3">
+              Pensada para escuelas de fútbol y entrenamientos específicos. Espacio amplio para ejercicios tácticos.
+            </p>
+            <ul class="text-xs text-slate-300 space-y-1 mb-3">
+              <li>• Conos y arcos pequeños disponibles</li>
+              <li>• Espacio para activación previa</li>
+              <li>• Posibilidad de arriendo mensual</li>
+            </ul>
+            <p class="mt-auto text-xs text-slate-400">Desde <span class="text-emerald-400 font-semibold">$18.000 / hora</span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PLANES -->
+    <section id="planes" class="bg-slate-950/80 border-y border-slate-800">
+      <div class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+        <h2 class="text-2xl md:text-3xl font-bold mb-2 text-center">Planes y horarios</h2>
+        <p class="text-slate-300 text-sm md:text-base text-center mb-8">
+          Puedes reservar por partido ocasional o asegurar tu horario semanal con precios preferenciales.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- Plan 1 -->
+          <div class="bg-slate-900/80 border border-slate-700 rounded-2xl p-6 flex flex-col">
+            <p class="text-xs font-semibold text-emerald-400 mb-1 uppercase tracking-[0.2em]">Partido único</p>
+            <h3 class="text-lg font-bold mb-2">Arriendo por hora</h3>
+            <p class="text-sm text-slate-300 mb-4">
+              Ideal para jugar de vez en cuando con amigos.
+            </p>
+            <p class="text-2xl font-black text-emerald-400 mb-2">$20.000</p>
+            <p class="text-xs text-slate-400 mb-4">Lunes a domingo · Horarios sujetos a disponibilidad</p>
+            <ul class="text-xs text-slate-300 space-y-1 mb-6">
+              <li>• 60 minutos de juego</li>
+              <li>• Uso de camarines y baños</li>
+              <li>• Iluminación incluida</li>
+            </ul>
+            <button onclick="document.getElementById('reserva').scrollIntoView({behavior:'smooth'})"
+                    class="mt-auto px-4 py-2 rounded-xl bg-emerald-500 text-slate-950 text-sm font-semibold hover:bg-emerald-400">
+              Reservar este plan
+            </button>
+          </div>
+
+          <!-- Plan 2 -->
+          <div class="bg-slate-900 border-2 border-emerald-500 rounded-2xl p-6 flex flex-col shadow-[0_0_40px_rgba(16,185,129,.3)]">
+            <p class="text-xs font-semibold text-emerald-400 mb-1 uppercase tracking-[0.2em]">Recomendado</p>
+            <h3 class="text-lg font-bold mb-2">Horario fijo semanal</h3>
+            <p class="text-sm text-slate-300 mb-4">
+              Asegura tu día y hora todas las semanas para tu equipo.
+            </p>
+            <p class="text-2xl font-black text-emerald-400 mb-2">$70.000</p>
+            <p class="text-xs text-slate-400 mb-4">4 reservas mensuales en el mismo horario</p>
+            <ul class="text-xs text-slate-300 space-y-1 mb-6">
+              <li>• Precio preferencial</li>
+              <li>• Prioridad en cambio de horario</li>
+              <li>• Registro de equipo</li>
+            </ul>
+            <button onclick="document.getElementById('reserva').scrollIntoView({behavior:'smooth'})"
+                    class="mt-auto px-4 py-2 rounded-xl bg-emerald-500 text-slate-950 text-sm font-semibold hover:bg-emerald-400">
+              Consultar disponibilidad
+            </button>
+          </div>
+
+          <!-- Plan 3 -->
+          <div class="bg-slate-900/80 border border-slate-700 rounded-2xl p-6 flex flex-col">
+            <p class="text-xs font-semibold text-emerald-400 mb-1 uppercase tracking-[0.2em]">Escuelas & empresas</p>
+            <h3 class="text-lg font-bold mb-2">Convenios especiales</h3>
+            <p class="text-sm text-slate-300 mb-4">
+              Para academias, colegios y empresas que necesiten bloques de arriendo.
+            </p>
+            <p class="text-2xl font-black text-emerald-400 mb-2">A convenir</p>
+            <p class="text-xs text-slate-400 mb-4">Bloques de varias horas / contrato mensual</p>
+            <ul class="text-xs text-slate-300 space-y-1 mb-6">
+              <li>• Asesoría personalizada</li>
+              <li>• Facturación a empresa</li>
+              <li>• Branding en el complejo</li>
+            </ul>
+            <button onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})"
+                    class="mt-auto px-4 py-2 rounded-xl bg-slate-800 text-slate-100 text-sm font-semibold hover:bg-slate-700">
+              Hablar con nosotros
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUIENES SOMOS -->
+    <section id="nosotros" class="max-w-6xl mx-auto px-4 py-12 md:py-16">
+      <div class="grid md:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold mb-3">Quiénes somos</h2>
+          <p class="text-sm md:text-base text-slate-300 mb-4">
+            Fútbol Total es un complejo deportivo dedicado al fútbol amateur y recreativo.
+            Nacimos con una idea simple: que cualquier equipo pueda jugar en una cancha en buen estado, con buenas instalaciones y una experiencia organizada.
+          </p>
+          <p class="text-sm md:text-base text-slate-300 mb-4">
+            Trabajamos con reservas online para asegurar disponibilidad y evitar confusiones.
+            Todo queda registrado en nuestro sistema y cada reserva genera un correo de confirmación.
+          </p>
+          <ul class="text-sm text-slate-300 space-y-2">
+            <li>• Más de 5 años recibiendo equipos y campeonatos locales.</li>
+            <li>• Ubicados en un sector de fácil acceso con locomoción y estacionamiento.</li>
+            <li>• Comprometidos con el buen trato, la puntualidad y la seguridad.</li>
+          </ul>
+        </div>
+        <div class="bg-slate-950/60 border border-slate-700 rounded-2xl p-5">
+          <h3 class="font-semibold mb-3">¿Por qué reservar con nosotros?</h3>
+          <ul class="space-y-2 text-sm text-slate-300">
+            <li>✅ Confirmación por correo electrónico en cada reserva.</li>
+            <li>✅ Registro interno de todas las horas arrendadas.</li>
+            <li>✅ Apoyo para organizar campeonatos y amistosos.</li>
+            <li>✅ Pago en el recinto (efectivo o transferencia).</li>
+          </ul>
+          <p class="text-xs text-slate-400 mt-4">
+            *Somos las mejores canchas con el mayor profesionalismo para disfrutar de una gran actividad de futbol.*
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULARIO DE RESERVA -->
+    <section id="reserva" class="bg-slate-950/80 border-y border-slate-800">
+      <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+        <div class="mb-8 text-center">
+          <h2 class="text-2xl md:text-3xl font-bold mb-2">Reserva tu cancha</h2>
+          <p class="text-sm md:text-base text-slate-300">
+            Completa el formulario, guarda tu horario y revisa la confirmación que llegará a tu correo.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8 items-start">
+          <form id="form-reserva"
+                class="md:col-span-2 bg-slate-900/80 border border-slate-700 rounded-2xl p-5 space-y-4 text-sm">
+            <div class="grid md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold mb-1">Nombre completo *</label>
+                <input type="text" name="nombre" required
+                       class="w-full rounded-lg px-3 py-2 bg-slate-800 border border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Correo electrónico *</label>
+                <input type="email" name="email" required
+                       class="w-full rounded-lg px-3 py-2 bg-slate-800 border border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-4">
+              <div>
+                <label class="block text-xs font-semibold mb-1">Teléfono</label>
+                <input type="tel" name="telefono"
+                       class="w-full rounded-lg px-3 py-2 bg-slate-800 border border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Fecha *</label>
+                <input type="date" name="fecha" required
+                       class="w-full rounded-lg px-3 py-2 bg-slate-800 border border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Hora *</label>
+                <select name="hora" required
+                        class="w-full rounded-lg px-3 py-2 bg-slate-800 border border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                  <option value="">Selecciona horario</option>
+                  <option>16:00</option>
+                  <option>17:00</option>
+                  <option>18:00</option>
+                  <option>19:00</option>
+                  <option>20:00</option>
+                  <option>21:00</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold mb-1">Cancha *</label>
+                <select name="cancha" required
+                        class="w-full rounded-lg px-3 py-2 bg-slate-800 border border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                  <option value="">Selecciona una cancha</option>
+                  <option>Cancha 1 - Fútbol 7 (Techada)</option>
+                  <option>Cancha 2 - Fútbol 7</option>
+                  <option>Cancha 3 - Multiuso</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-xs font-semibold mb-1">Comentario (equipo, torneo, etc.)</label>
+                <input type="text" name="comentario"
+                       class="w-full rounded-lg px-3 py-2 bg-slate-800 border border-slate-700 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between gap-3">
+              <p class="text-xs text-slate-400">
+                Al enviar la reserva, tus datos se registran en nuestra base de datos
+                y recibirás un correo de confirmación.
+              </p>
+              <button type="submit"
+                      id="btn-enviar"
+                      class="px-5 py-2.5 rounded-xl bg-emerald-500 text-slate-950 text-sm font-semibold hover:bg-emerald-400 disabled:opacity-60 disabled:cursor-not-allowed">
+                Reservar cancha
+              </button>
+            </div>
+
+            <div id="mensaje-reserva" class="text-xs mt-2"></div>
+          </form>
+
+          <div class="bg-slate-900/80 border border-slate-700 rounded-2xl p-5 text-xs text-slate-300 space-y-3">
+            <h3 class="font-semibold text-sm mb-1">¿Qué pasa después de reservar?</h3>
+            <ol class="list-decimal list-inside space-y-1">
+              <li>Se guardan tus datos en el sistema de reservas.</li>
+              <li>Se genera un correo electrónico con el detalle de tu reserva.</li>
+              <li>El administrador del complejo recibe el correo de aviso.</li>
+            </ol>
+            <p class="text-slate-400 mt-3">
+              Una vez este reservada la cancha y confirmada tendran acceso para las instalaciones :
+              <span class="font-mono text-emerald-400 text-[11px]">NO INSISTIR  </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="max-w-6xl mx-auto px-4 py-10 md:py-12">
+      <div class="grid md:grid-cols-3 gap-6 text-sm text-slate-300">
+        <div>
+          <h3 class="font-semibold mb-2">Ubicación</h3>
+          <p>Complejo Fútbol Total</p>
+          <p>Sector Deportivo, Talcahuano</p>
+          <p class="text-slate-500 text-xs mt-1">*Chile-Bio-Bio*</p>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-2">Contacto</h3>
+          <p>Teléfono: +56 9 1234 5678</p>
+          <p>Correo: contacto@futboltotal.cl</p>
+          <p class="text-slate-500 text-xs mt-1">WhatsApp para confirmación y cambios de horario.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold mb-2">Horarios de atención</h3>
+          <p>Lunes a viernes: 16:00 a 22:00</p>
+          <p>Sábados y domingos: 10:00 a 22:00</p>
+          <p class="text-slate-500 text-xs mt-1">21:00 ultima reserva</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-slate-800 bg-slate-950 text-xs text-slate-500">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-2">
+      <p>© 2025 Fútbol Total · Reservas de canchas.</p>
+      <p>Desarrollado como trabajo académico con conexión a base de datos y correo.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT FORMULARIO -->
+  <script>
+    const form = document.getElementById('form-reserva');
+    const mensaje = document.getElementById('mensaje-reserva');
+    const btn = document.getElementById('btn-enviar');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      mensaje.textContent = '';
+      mensaje.className = 'text-xs mt-2';
+
+      btn.disabled = true;
+      btn.textContent = 'Enviando...';
+
+      const formData = new FormData(form);
+      const data = Object.fromEntries(formData.entries());
+
+      try {
+        const res = await fetch('/api/reservas', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+
+        const json = await res.json();
+
+        if (json.ok) {
+          mensaje.textContent = json.message || 'Reserva creada correctamente.';
+          mensaje.classList.add('text-emerald-400');
+          form.reset();
+        } else {
+          mensaje.textContent = json.message || 'Ocurrió un problema al crear la reserva.';
+          mensaje.classList.add('text-red-400');
+        }
+      } catch (error) {
+        console.error(error);
+        mensaje.textContent = 'Error de conexión con el servidor.';
+        mensaje.classList.add('text-red-400');
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Reservar cancha';
+      }
+    });
+  </script>
+</body>
+</html>
